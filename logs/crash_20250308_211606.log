@@ -1,0 +1,13 @@
+ModuKit崩溃时间: 2025-03-08 21:16:06.472118
+错误信息: module 'webview' has no attribute 'platforms'
+Traceback (most recent call last):
+  File "e:\y3team\hypertools\modukit\index.py", line 166, in <module>
+    main()
+    ~~~~^^
+  File "e:\y3team\hypertools\modukit\index.py", line 159, in main
+    setup_tray(window)
+    ~~~~~~~~~~^^^^^^^^
+  File "e:\y3team\hypertools\modukit\index.py", line 124, in setup_tray
+    if not webview.platforms.gtk.is_gtk:  # GTK平台不支持托盘
+           ^^^^^^^^^^^^^^^^^
+AttributeError: module 'webview' has no attribute 'platforms'

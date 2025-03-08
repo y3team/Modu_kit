@@ -1,0 +1,12 @@
+ModuKit崩溃时间: 2025-03-08 21:14:28.746362
+错误信息: dict.get() takes no keyword arguments
+Traceback (most recent call last):
+  File "e:\y3team\hypertools\modukit\index.py", line 151, in <module>
+    main()
+    ~~~~^^
+  File "e:\y3team\hypertools\modukit\index.py", line 141, in main
+    window = create_window(config, args.debug, args.port)
+  File "e:\y3team\hypertools\modukit\index.py", line 77, in create_window
+    window_title = config.get("window", "title", fallback="ModuKit - 模块化工具箱")
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: dict.get() takes no keyword arguments

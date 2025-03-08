@@ -1,0 +1,74 @@
+2025-03-08 21:13:33,816 - ModuKit - CRITICAL - 程序崩溃: 'ConfigLoader' object has no attribute 'get_config'
+2025-03-08 21:14:28,745 - ModuKit - INFO - 正在启动ModuKit，端口: 5000, 调试模式: False
+2025-03-08 21:14:28,747 - ModuKit - CRITICAL - 程序崩溃: dict.get() takes no keyword arguments
+2025-03-08 21:16:06,471 - ModuKit - INFO - 正在启动ModuKit，端口: 5000, 调试模式: False
+2025-03-08 21:16:06,473 - ModuKit - CRITICAL - 程序崩溃: module 'webview' has no attribute 'platforms'
+2025-03-08 21:17:09,504 - ModuKit - INFO - 正在启动ModuKit，端口: 5000, 调试模式: False
+2025-03-08 21:17:09,504 - ModuKit - WARNING - 无法创建系统托盘: module 'webview' has no attribute 'menu'
+2025-03-08 21:17:09,555 - waitress - INFO - Serving on http://127.0.0.1:5000
+2025-03-08 21:19:24,935 - ModuKit - INFO - 正在启动ModuKit，端口: 5000, 调试模式: False
+2025-03-08 21:19:24,989 - waitress - INFO - Serving on http://127.0.0.1:5000
+2025-03-08 21:19:55,876 - ModuKit - INFO - 正在启动ModuKit，端口: 5000, 调试模式: False
+2025-03-08 21:19:55,926 - waitress - INFO - Serving on http://127.0.0.1:5000
+2025-03-08 21:20:24,458 - ModuKit - INFO - 正在启动ModuKit，端口: 5000, 调试模式: False
+2025-03-08 21:20:24,492 - waitress - INFO - Serving on http://127.0.0.1:5000
+2025-03-08 21:20:51,396 - ModuKit - INFO - 正在启动ModuKit，端口: 5000, 调试模式: False
+2025-03-08 21:20:51,499 - waitress - INFO - Serving on http://127.0.0.1:5000
+2025-03-08 21:21:08,207 - ModuKit - INFO - 正在启动ModuKit，端口: 5000, 调试模式: False
+2025-03-08 21:21:08,241 - waitress - INFO - Serving on http://127.0.0.1:5000
+2025-03-08 21:23:57,389 - ModuKit - INFO - 正在启动ModuKit，端口: 5000, 调试模式: False
+2025-03-08 21:23:57,410 - ModuKit - ERROR - 启动GUI失败: module 'webview' has no attribute '__version__'
+2025-03-08 21:23:57,410 - ModuKit - WARNING - 回退到命令行模式
+2025-03-08 21:23:57,449 - waitress - INFO - Serving on http://127.0.0.1:5000
+2025-03-08 21:25:12,426 - ModuKit - INFO - 正在启动ModuKit，端口: 5000, 调试模式: False
+2025-03-08 21:25:12,465 - waitress - INFO - Serving on http://127.0.0.1:5000
+2025-03-08 21:25:41,892 - ModuKit - INFO - 正在启动ModuKit，端口: 5000, 调试模式: False
+2025-03-08 21:25:41,971 - waitress - INFO - Serving on http://127.0.0.1:5000
+2025-03-08 21:27:44,729 - ModuKit - INFO - 正在启动ModuKit，端口: 5000, 调试模式: False
+2025-03-08 21:27:44,745 - ModuKit - INFO - PyWebView版本: 未知
+2025-03-08 21:27:44,745 - ModuKit - INFO - 尝试使用 cef 渲染器
+2025-03-08 21:27:44,746 - ModuKit - INFO - 成功导入PyWebView
+2025-03-08 21:27:44,746 - ModuKit - INFO - 创建窗口: ModuKit - 模块化工具箱, 大小: 1024x768
+2025-03-08 21:27:44,746 - ModuKit - INFO - 窗口创建成功
+2025-03-08 21:27:44,746 - ModuKit - INFO - 使用 cef 渲染器启动PyWebView
+2025-03-08 21:27:44,801 - waitress - INFO - Serving on http://127.0.0.1:5000
+2025-03-08 21:27:45,047 - ModuKit - WARNING - cef 渲染器初始化失败: Python version not supported: 3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]
+2025-03-08 21:27:45,047 - ModuKit - INFO - 尝试使用 qt 渲染器
+2025-03-08 21:27:45,048 - ModuKit - INFO - 成功导入PyWebView
+2025-03-08 21:27:45,048 - ModuKit - INFO - 可用的PyWebView平台: __builtins__, __cached__, __doc__, __file__, __loader__, __name__, __package__, __path__, __spec__
+2025-03-08 21:27:45,048 - ModuKit - INFO - 创建窗口: ModuKit - 模块化工具箱, 大小: 1024x768
+2025-03-08 21:27:45,048 - ModuKit - INFO - 窗口创建成功
+2025-03-08 21:27:45,048 - ModuKit - INFO - 使用 qt 渲染器启动PyWebView
+2025-03-08 21:27:45,049 - pywebview - ERROR - QT cannot be loaded
+Traceback (most recent call last):
+  File "C:\Users\y3team\AppData\Local\Programs\Python\Python313\Lib\site-packages\webview\guilib.py", line 29, in import_qt
+    import webview.platforms.qt as guilib
+  File "C:\Users\y3team\AppData\Local\Programs\Python\Python313\Lib\site-packages\webview\platforms\qt.py", line 30, in <module>
+    from qtpy import QtCore
+ModuleNotFoundError: No module named 'qtpy'
+2025-03-08 21:27:45,050 - ModuKit - WARNING - qt 渲染器初始化失败: You must have pythonnet installed in order to use pywebview.
+2025-03-08 21:27:45,050 - ModuKit - INFO - 尝试使用 gtk 渲染器
+2025-03-08 21:27:45,050 - ModuKit - INFO - 成功导入PyWebView
+2025-03-08 21:27:45,051 - ModuKit - INFO - 可用的PyWebView平台: __builtins__, __cached__, __doc__, __file__, __loader__, __name__, __package__, __path__, __spec__
+2025-03-08 21:27:45,051 - ModuKit - INFO - 创建窗口: ModuKit - 模块化工具箱, 大小: 1024x768
+2025-03-08 21:27:45,051 - ModuKit - INFO - 窗口创建成功
+2025-03-08 21:27:45,051 - ModuKit - INFO - 使用 gtk 渲染器启动PyWebView
+2025-03-08 21:34:00,747 - ModuKit - INFO - 正在启动ModuKit，端口: 5000, 调试模式: False
+2025-03-08 21:34:00,823 - waitress - INFO - Serving on http://127.0.0.1:5000
+2025-03-08 21:34:19,483 - ModuKit - INFO - 正在启动ModuKit，端口: 5000, 调试模式: False
+2025-03-08 21:34:19,502 - ModuKit - INFO - PyWebView版本: 未知
+2025-03-08 21:34:19,502 - ModuKit - INFO - 成功导入PyWebView
+2025-03-08 21:34:19,503 - ModuKit - INFO - 创建窗口: ModuKit - 模块化工具箱, 大小: 1024x768
+2025-03-08 21:34:19,503 - ModuKit - INFO - 窗口创建成功
+2025-03-08 21:34:19,503 - ModuKit - INFO - 启动PyWebView
+2025-03-08 21:34:19,532 - waitress - INFO - Serving on http://127.0.0.1:5000
+2025-03-08 21:35:30,678 - ModuKit - INFO - 正在启动ModuKit，端口: 5000, 调试模式: False
+2025-03-08 21:35:30,748 - waitress - INFO - Serving on http://127.0.0.1:5000
+2025-03-08 21:40:50,132 - ModuKit - INFO - PyWebView版本: 未知
+2025-03-08 21:40:50,164 - ModuKit - INFO - 成功导入PyWebView
+2025-03-08 21:40:50,164 - ModuKit - INFO - 创建窗口: ModuKit - 模块化工具箱, 大小: 1024x768
+2025-03-08 21:40:50,164 - ModuKit - INFO - 加载HTML文件: E:\y3team\hypertools\modukit\static\index.html
+2025-03-08 21:40:50,164 - ModuKit - INFO - 使用图标: E:\y3team\hypertools\modukit\static\logo.ico
+2025-03-08 21:40:50,164 - ModuKit - ERROR - 创建窗口失败: create_window() got an unexpected keyword argument 'icon'
+2025-03-08 21:40:50,164 - ModuKit - WARNING - GUI窗口创建失败，回退到命令行模式
+2025-03-08 21:40:50,218 - waitress - INFO - Serving on http://127.0.0.1:5000

@@ -1,0 +1,10 @@
+ModuKit崩溃时间: 2025-03-08 21:13:33.815855
+错误信息: 'ConfigLoader' object has no attribute 'get_config'
+Traceback (most recent call last):
+  File "e:\y3team\hypertools\modukit\index.py", line 151, in <module>
+    main()
+    ~~~~^^
+  File "e:\y3team\hypertools\modukit\index.py", line 129, in main
+    config = config_loader.get_config()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigLoader' object has no attribute 'get_config'

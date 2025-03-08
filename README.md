@@ -13,6 +13,7 @@ ModuKit是一个高度模块化的工具箱应用，旨在提供一系列实用�
 - **跨平台**：支持Windows、macOS和Linux系统
 - **用户友好**：简洁直观的界面设计，易于上手
 - **高效性能**：轻量级设计，占用资源少
+- **多种运行模式**：支持CLI模式和GUI模式
 
 ## 包含模块
 
@@ -26,7 +27,7 @@ ModuKit是一个高度模块化的工具箱应用，旨在提供一系列实用�
 ## 技术栈
 
 - 后端：Python
-- 前端：HTML/CSS/JavaScript (使用Electron或Web技术)
+- 前端：HTML/CSS/JavaScript (使用PyWebView或Web浏览器)
 - 数据存储：SQLite/JSON
 
 ## 安装与使用
@@ -41,8 +42,38 @@ cd modukit
 # 安装依赖
 pip install -r requirements.txt
 
-# 运行应用
+# 运行应用（CLI模式，默认）
 python main.py
+
+# 运行应用（GUI模式，独立窗口）
+python main.py --gui
+
+# 调试模式
+python main.py --debug
+```
+
+## 运行模式
+
+ModuKit支持两种运行模式：
+
+### CLI模式（默认）
+
+命令行界面模式，提供简单的命令行交互，同时可以在浏览器中查看Web界面。
+
+可用命令：
+- `help` - 显示帮助信息
+- `status` - 显示服务器状态
+- `modules` - 列出可用模块
+- `open` - 在浏览器中打开界面
+- `exit` - 退出程序
+
+### GUI模式
+
+图形用户界面模式，使用PyWebView创建独立窗口，提供更好的用户体验。
+
+启动方式：
+```bash
+python main.py --gui
 ```
 
 ## 贡献指南
